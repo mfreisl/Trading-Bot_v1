@@ -1,0 +1,10 @@
+ipykernel==6.17.1
+ipython==8.6.0
+yfinance==0.2.9
+tradingview-ta==3.3.0
+alpaca-py==0.7.1
+alpaca-trade-api==2.3.0
+fastapi==0.85.0
+pandas-ta==0.3.14b0
+requests==2.28.1
+uvicorn==0.18.3
