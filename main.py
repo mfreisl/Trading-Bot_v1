@@ -10,7 +10,7 @@ from alpaca.trading.enums import OrderSide, TimeInForce
 from params import TAKE_PROFIT_DELTA, TELEGRAM_BOT_ID, TELEGRAM_CHAT_ID, TELEGRAM_URL, \
     TRADER_BOT_NAME, SCREENER_NASDAQ_COUNT, SCREENER_INTERVAL, SCREENER_PERIOD, \
     TRADER_API_KEY, TRADER_API_SECRET, TRADER_API_URL, TRADER_API, \
-    trading_client
+    trading_client, CASH_LIMIT
 
 from screen_stocks import ScreenStocks
 from check_stocks import CheckStock
