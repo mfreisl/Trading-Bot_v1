@@ -7,6 +7,8 @@ from params import TAKE_PROFIT_DELTA, TELEGRAM_BOT_ID, TELEGRAM_CHAT_ID, TELEGRA
     TRADER_BOT_NAME, SCREENER_NASDAQ_COUNT, SCREENER_INTERVAL, SCREENER_PERIOD, \
         TRADER_API_KEY, TRADER_API_SECRET, TRADER_API_URL, TRADER_API
 
+from check_stocks import CheckStock
+
 def ScreenStocks(trader_api):
     assets = trader_api.list_assets(status='active', asset_class='us_equity')
     assets = [x for x in assets if x.shortable == True and x.exchange == 'NASDAQ']
